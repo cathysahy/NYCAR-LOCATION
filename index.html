@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Location de voiture à Madagascar | NyCar Réservation en ligne</title>
+  <meta name="description" content="Louez une voiture à Madagascar avec Car & Go : Citadine, Berline, 4x4 ou Starex. Réservez en ligne facilement au meilleur prix pour vos trajets en ville, voyages ou vacances.">
+  <meta name="keywords" content="location voiture Madagascar, louer voiture Antananarivo, 4x4 Madagascar, location Starex, location berline, voiture économique">
+  <meta property="og:title" content="NyCar Madagascar – Location de voitures">
+<meta property="og:description" content="Réservez votre voiture à Madagascar en ligne : Citadine, Berline, 4x4 ou Starex.">
+<meta property="og:image" content="logo-nycar.jpg">
+<meta property="og:url" content="https://www.nycar.mg">
+  <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+
+<header>
+    <img src="image1/logo.jpg" alt="logo">
+    <h1>Bienvenue chez NyCar location Madagascar - Location de voitures</h1>
+    <p>Louez facilement votre voiture à Madagascar : <strong>Citadine, Berline, 4x4 ou Starex</strong> pour vos déplacements en ville, vacances ou voyages d'affaires.</p>
+</header>
+
+<main>
+  <section class="vehicles">
+      <h2>Nos voitures disponibles à la location</h2><br>
+    <section>
+      <div class="vehicle-card">
+          <img src="image1/citadine.png" alt="Voiture citadine économique Madagascar">
+          <h3>Citadine</h3>
+          <p>Économique et facile à garer, idéale pour vos trajets urbains.<br><strong>Capacité : 4 personnes</strong></p>
+      </div>
+
+      <div class="vehicle-card">
+          <img src="image1/berline.png" alt="Berline confortable pour voyages à Madagascar">
+          <h3>Berline</h3>
+          <p>Confort et élégance pour vos <strong>voyages professionnels</strong> ou escapades.<br><strong>Capacité : 5 personnes</strong></p>
+      </div>
+
+      <div class="vehicle-card">
+          <img src="image1/4 .jpg" alt="4x4 SUV pour routes difficiles à Madagascar">
+          <h3>4x4 / SUV</h3>
+          <p>Parfait pour explorer <strong>les routes difficiles de Madagascar</strong> et découvrir ses paysages.<br><strong>Capacité : 5 personnes</strong></p>
+      </div>
+
+      <div class="vehicle-card">
+          <img src="image1/starex.jpg" alt="Starex minibus pour groupes Madagascar">
+          <h3>Starex</h3>
+          <p>Idéal pour les <strong>groupes</strong> et longs trajets avec confort optimal.<br><strong>Capacité : 8 personnes</strong></p>
+      </div>
+      </section>
+  </section>
+
+<section>
+    <h2>Nos services et avantages NyCar</h2>
+
+    <p>Vous cherchez une <strong>location de voiture fiable et flexible à Madagascar</strong> ? Chez <strong>NyCar</strong>, nous mettons à votre disposition une large gamme de véhicules modernes et confortables, adaptés à tous vos besoins, que ce soit pour les affaires, le tourisme ou les trajets quotidiens.</p>
+
+    <h3>Nos services de location de voiture</h3>
+    <ul>
+        <li><strong>Location courte durée</strong> – Voitures disponibles à la journée ou au week-end, <br>réservation simple et rapide en ligne.</li>
+        <li><strong>Location longue durée</strong> – Contrats mensuels et annuels pour plus de flexibilité.</li>
+        <li><strong>Chauffeur inclus</strong> – Pour vos voyages d’affaires ou circuits touristiques.</li>
+    </ul>
+
+    <h3>Pourquoi choisir NyCar ?</h3>
+    <ul>
+        <li><strong>Réservation facile en ligne</strong> – Quelques clics et votre voiture est prête.</li>
+        <li><strong>Tarifs compétitifs</strong> – Le meilleur rapport qualité/prix.</li>
+        <li><strong>Service client réactif</strong> – Assistance 7j/7 pour toutes vos demandes.</li>
+        <li><strong>Flexibilité et sécurité</strong> – Assurance complète et options personnalisées.</li>
+    </ul>
+</section>
+  <section>
+      <h2>Réservez votre voiture en ligne</h2>
+      <p>Remplissez le formulaire ci-dessous pour <strong>réserver votre voiture</strong> dès maintenant.Un conseiller vous contactera pour finaliser votre réservation.</p>
+
+      <form id="reservationForm">
+          <label for="voiture">Type de voiture :</label>
+          <select id="voiture" required>
+              <option value="" disabled selected>Sélectionnez</option>
+              <option value="Citadine">Citadine - 150 000 Ar/jour</option>
+              <option value="Berline">Berline - 180 000 Ar/jour</option>
+              <option value="4x4">4x4 / SUV - 200 000 Ar/jour</option>
+              <option value="Starex">Starex - 400 000 Ar/jour</option>
+          </select>
+
+          <label for="passagers">Nombre de passagers :</label>
+          <input type="number" id="passagers" min="1" max="8" required>
+
+          <label for="departDate">Date et heure de prise :</label>
+          <input type="datetime-local" id="departDate" required>
+
+          <label for="retourDate">Date et heure de retour :</label>
+          <input type="datetime-local" id="retourDate" required>
+
+          <label for="destination">Destination :</label>
+          <select id="destination" required>
+              <option value="" disabled selected>Sélectionnez</option>
+              <option value="ville">Dans la ville</option>
+              <option value="horsville">Hors ville (+20% du tarif)</option>
+          </select>
+
+          <div id="tarif">Tarif estimé : 0 Ar</div>
+
+          <button type="submit">🚗 Réserver maintenant</button>
+      </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 NyCar location | Location de voitures à Antananarivo et partout sur l’île</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CarRental",
+  "name": "Nycar location Madagascar",
+  "url": "https://www.nycarmadagascar.com",
+  "logo": "https://via.placeholder.com/200x120?text=Car+Go+Madagascar",
+  "description": "Location de voitures à Madagascar : citadine, berline, 4x4 et Starex avec réservation en ligne.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Antananarivo",
+    "addressCountry": "MG"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+261 38 97 470 12",
+    "contactType": "customer service"
+  }
+}
+</script>
+
+</body>
+</html>
